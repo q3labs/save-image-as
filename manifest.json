@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Q3 Save Image As – JPG, PNG, WebP",
+  "version": "1.0.0",
+  "description": "Right-click any image to save it as JPG, PNG or WebP. Converted locally in your browser; nothing is uploaded.",
+  "homepage_url": "https://q3labs.co/extensions/save-image-as/",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Q3 Save Image As",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "permissions": ["contextMenus", "downloads", "storage", "notifications", "offscreen"],
+  "host_permissions": ["<all_urls>"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "image-saver@q3labs.co",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  }
+}

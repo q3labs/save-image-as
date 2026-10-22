@@ -1,0 +1,17 @@
+{
+  "name": "q3-image-saver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Q3 Save Image As – JPG, PNG, WebP: a browser extension (Chrome, Edge, Opera, Firefox)",
+  "scripts": {
+    "icons": "node scripts/make-icons.mjs",
+    "store-assets": "node scripts/store-assets.mjs",
+    "build": "node scripts/make-icons.mjs && node scripts/build.mjs",
+    "test": "node --test test/background.test.js",
+    "lint": "eslint .",
+    "lint:firefox": "npm run build && npx --yes web-ext lint --source-dir dist/firefox"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

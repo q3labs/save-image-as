@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q3 Save Image As</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header>
+        <img src="icons/icon-48.png" alt="" />
+        <h1>Q3 Save Image As<br />JPG, PNG, WebP</h1>
+      </header>
+      <p class="hint">Right-click any image and choose “Save image as…”.</p>
+      <label class="field">
+        <span>Default format</span>
+        <select id="format">
+          <option value="jpg">JPG</option>
+          <option value="png">PNG</option>
+          <option value="webp">WebP</option>
+        </select>
+      </label>
+      <label class="field" id="quality-field">
+        <span>Quality (JPG and WebP)</span>
+        <div class="row">
+          <input id="quality" type="range" min="50" max="100" step="1" />
+          <output id="quality-value" for="quality"></output>
+        </div>
+      </label>
+      <a class="button" href="https://q3labs.co/tools/?utm_source=image-saver&amp;utm_medium=extension" target="_blank" rel="noopener">More free tools</a>
+      <p class="privacy">Privacy: all conversion happens locally.<br /><a href="https://q3labs.co/extensions/save-image-as/?utm_source=image-saver&amp;utm_medium=extension" target="_blank" rel="noopener">About &amp; privacy</a></p>
+    </main>
+    <script src="settings.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

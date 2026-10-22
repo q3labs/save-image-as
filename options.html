@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q3 Save Image As – Options</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <img src="icons/icon-48.png" alt="" />
+        <h1>Q3 Save Image As: options</h1>
+      </header>
+      <label class="field">
+        <span>Default format</span>
+        <select id="format">
+          <option value="jpg">JPG</option>
+          <option value="png">PNG</option>
+          <option value="webp">WebP</option>
+        </select>
+        <p class="hint">Used by “Save as default format” in the right-click menu.</p>
+      </label>
+      <label class="field" id="quality-field">
+        <span>Quality for JPG and WebP</span>
+        <div class="row">
+          <input id="quality" type="range" min="50" max="100" step="1" />
+          <output id="quality-value" for="quality"></output>
+        </div>
+        <p class="hint">Higher keeps more detail and makes a bigger file. PNG is always lossless.</p>
+      </label>
+      <label class="check">
+        <input id="dialog" type="checkbox" />
+        Show the save dialog so I can choose the folder
+      </label>
+      <p class="status" id="status" role="status"></p>
+      <p class="privacy">Privacy: images are converted on your device and never uploaded. No data is collected.</p>
+      <a class="button" href="https://q3labs.co/tools/?utm_source=image-saver&amp;utm_medium=extension" target="_blank" rel="noopener">More free tools</a>
+    </main>
+    <script src="settings.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

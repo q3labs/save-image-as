@@ -1,6 +1,6 @@
 # Store listing: Q3 Save Image As – JPG, PNG, WebP
 
-Use the same text for Chrome Web Store, Microsoft Edge Add-ons, Firefox AMO and Opera add-ons. Upload `dist/q3-image-saver-chrome.zip` to Chrome, Edge and Opera, and `dist/q3-image-saver-firefox.zip` to Firefox.
+Use the same text for Chrome Web Store, Microsoft Edge Add-ons, Firefox AMO and Opera add-ons (the full description below, including its "Open source" line, goes into every store). Upload `dist/q3-image-saver-chrome.zip` to Chrome, Edge and Opera, and `dist/q3-image-saver-firefox.zip` to Firefox.
 
 ## Title (max 75 characters)
 
@@ -35,6 +35,7 @@ All conversion happens on your device. Your images are never uploaded, and the e
 Some sites protect their images. When a site blocks access, the extension tells you why instead of failing silently.
 
 Made by Q3 Labs. More free tools at q3labs.co/tools.
+Open source: https://github.com/q3labs/save-image-as
 
 ## Single purpose
 
@@ -61,15 +62,16 @@ Convert an image the user right-clicks to JPG, PNG or WebP and save it to their 
 
 Website URL and Privacy policy URL are the same in every store:
 
-- Website URL: https://q3labs.co/extensions/save-image-as/
-- Privacy policy URL: https://q3labs.co/extensions/save-image-as/privacy/
+- Website URL: https://q3labs.co/extensions/save-image-as
+- Source code: https://github.com/q3labs/save-image-as
+- Privacy policy URL: https://q3labs.co/extensions/save-image-as/privacy
 
 | Store | Package | Category | Website URL | Privacy policy URL |
 |---|---|---|---|---|
-| Chrome Web Store | `dist/q3-image-saver-chrome.zip` | Tools | https://q3labs.co/extensions/save-image-as/ | https://q3labs.co/extensions/save-image-as/privacy/ |
-| Microsoft Edge Add-ons | `dist/q3-image-saver-chrome.zip` | Productivity | https://q3labs.co/extensions/save-image-as/ | https://q3labs.co/extensions/save-image-as/privacy/ |
-| Firefox AMO | `dist/q3-image-saver-firefox.zip` | Photos, Music & Videos | https://q3labs.co/extensions/save-image-as/ | https://q3labs.co/extensions/save-image-as/privacy/ |
-| Opera add-ons | `dist/q3-image-saver-chrome.zip` | Productivity | https://q3labs.co/extensions/save-image-as/ | https://q3labs.co/extensions/save-image-as/privacy/ |
+| Chrome Web Store | `dist/q3-image-saver-chrome.zip` | Tools | https://q3labs.co/extensions/save-image-as | https://q3labs.co/extensions/save-image-as/privacy |
+| Microsoft Edge Add-ons | `dist/q3-image-saver-chrome.zip` | Productivity | https://q3labs.co/extensions/save-image-as | https://q3labs.co/extensions/save-image-as/privacy |
+| Firefox AMO | `dist/q3-image-saver-firefox.zip` | Photos, Music & Videos | https://q3labs.co/extensions/save-image-as | https://q3labs.co/extensions/save-image-as/privacy |
+| Opera add-ons | `dist/q3-image-saver-chrome.zip` | Productivity | https://q3labs.co/extensions/save-image-as | https://q3labs.co/extensions/save-image-as/privacy |
 
 Tags / keywords: save image as jpg, webp to jpg, save webp as png, convert webp, image converter, png to jpg, avif to jpg.
 

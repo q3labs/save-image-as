@@ -24,6 +24,10 @@ Three settings are stored with your browser's sync storage: your default format,
 
 Each permission exists only to do the job described above. The extension reads images only after you choose "Save image as…" from the right-click menu on that image. See `STORE_LISTING.md` for the reason behind each permission.
 
+## Source code
+
+The extension is open source (MIT): https://github.com/q3labs/save-image-as
+
 ## Contact
 
 Questions: https://q3labs.co/contact
